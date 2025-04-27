@@ -1,1 +1,42 @@
-/build
+# Diretórios que o Android Studio e Gradle geram
+.gradle/
+.idea/
+local.properties
+/.settings/
+/build/
+/captures/
+/output/
+
+# Arquivos de cache
+*.iml
+*.hprof
+*.log
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Arquivos de crash ou debug
+crashlytics-build.properties
+
+# Arquivos de configuração do sistema operacional
+*.swp
+*.swo
+
+# Arquivos de release
+*.jks
+*.keystore
+
+# Arquivos de APK/Bundle gerados
+*.apk
+*.ap_
+*.aab
+
+# Firebase
+google-services.json
+firebase-debug.log
+
+# Outras configurações específicas
+*.bak
